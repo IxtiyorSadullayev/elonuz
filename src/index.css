@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.site-brand{
+  animation: brand;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes brand {
+  0%{color: black;}
+  25%{color: rgb(4, 35, 4);}
+  50%{color: rgb(7, 72, 7);}
+  75%{color: rgb(14, 246, 14);}
+  100%{color: rgb(19, 244, 19);}
+}
